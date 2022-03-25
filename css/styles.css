@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+
 body {
     font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
 }

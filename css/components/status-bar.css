@@ -1,0 +1,15 @@
+.status-bar {
+    border: 1px solid red;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.status-bar__column {
+    width: 30%;
+}
+.status-bar__column:nth-child(2) {
+    text-align: center;
+}
+.status-bar__column:nth-child(3) {
+    text-align: right;
+}
