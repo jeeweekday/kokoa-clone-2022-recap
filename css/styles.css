@@ -6,7 +6,22 @@
 /* components */
 @import "components/status-bar.css";
 
+/* screens */
+@import "screens/login.css";
+
+html {
+    /* 100% -> 16px */
+    font-size: 100%;
+}
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--main-color);
+    /* 0.875rem -> 14px */
+    font-size: 0.875rem;
+    height: 200vh;
+}
+h3 {
+    /* 1.25rem -> 20px */
+    /* 1.5rem -> 24px */
+    font-size: 1.5rem;
 }

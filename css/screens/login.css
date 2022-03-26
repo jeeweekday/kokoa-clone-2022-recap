@@ -1,0 +1,60 @@
+.welcome-header,
+.welcome-login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-header {
+    margin-top: 20px;
+    padding: 70px;
+}
+.welcome-header__title {
+    padding-bottom: 30px;
+}
+.welcome-header__title > span {
+    font-weight: 600;
+}
+.welcome-header__text {
+    text-align: center;
+    line-height: 1rem;
+    color: var(--sub-gray);
+}
+
+.welcome-login__form {
+    padding: 0 20px;
+}
+.welcome-login__input {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    font-size: 1rem;
+}
+.welcome-login__input:nth-child(-2n+4) {
+    margin-bottom: 20px;
+}
+.welcome-login__input:not([type="submit"]) {
+    border-bottom: 1.5px solid var(--sub-gray);
+    transition: border-bottom var(--dot-2) ease-in-out;
+}
+.welcome-login__input:not([type="submit"])::placeholder {
+    color: var(--sub-gray);
+}
+.welcome-login__input:not([type="submit"]):focus {
+    outline: none;
+    border-bottom: 1.5px solid var(--point-color);
+}
+.welcome-login__input[type="submit"] {
+    background-color: var(--bg-gray);
+    cursor: pointer;
+    transition: background-color var(--dot-2) ease-in-out;
+}
+.welcome-login__input[type="submit"]:hover {
+    background-color: var(--point-color);
+}
+.welcome-login__form a,
+.welcome-login__form a:visited {
+    text-decoration: none;
+    color: var(--main-gray);
+}

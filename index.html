@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <!-- css/components/status-bar.css -->
+
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No service</span>
@@ -24,6 +27,23 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
+
+    <!-- css/screens/login.css -->
+
+    <header class="welcome-header">
+        <h3 class="welcome-header__title">Welcome to <span>Pandas</span></h3>
+        <p class="welcome-header__text">If you have a Pandas Account, <br>log in with your email or phone number.</p>
+    </header>
+
+    <main class="welcome-login">
+        <form class="welcome-login__form" action="friends.html" method="get">
+            <input class="welcome-login__input" name="username" type="text" placeholder="Email or phone number">
+            <input class="welcome-login__input" name="password" type="password" placeholder="Password" minlength="10">
+            <input class="welcome-login__input" type="submit" value="Log In">
+            <input class="welcome-login__input" type="submit" value="Sign Up">
+            <a href="#">Find Pandas Account or Password</a>
+        </form>
+    </main>
 
     <script src="https://kit.fontawesome.com/4ff560df84.js" crossorigin="anonymous"></script>
 </body>

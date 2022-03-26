@@ -1,3 +1,12 @@
 :root {
-    --main-color: #000;
+    /* color */
+    --main-color: #333;
+    --main-gray: #666;
+    --sub-gray: #999;
+    --bg-gray: #ddd;
+    --point-color : seagreen;
+
+    /* animation speed */
+    --dot-2: 0.2s;
+    --dot-4: 0.4s;
 }
