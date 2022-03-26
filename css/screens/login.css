@@ -53,8 +53,3 @@
 .welcome-login__input[type="submit"]:hover {
     background-color: var(--point-color);
 }
-.welcome-login__form a,
-.welcome-login__form a:visited {
-    text-decoration: none;
-    color: var(--main-gray);
-}

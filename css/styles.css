@@ -5,6 +5,7 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/navigation-bar.css";
 
 /* screens */
 @import "screens/login.css";
@@ -24,4 +25,9 @@ h3 {
     /* 1.25rem -> 20px */
     /* 1.5rem -> 24px */
     font-size: 1.5rem;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--main-gray);
 }
