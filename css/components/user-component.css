@@ -37,6 +37,22 @@
 .user__subtext {
     margin: 5px 0;
 }
+.user__text > div {
+    position: relative;
+}
+.user__text > div > span:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--point-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid var(--point-color);
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+}
 .user__column:last-child {
     color: var(--sub-gray);
 }

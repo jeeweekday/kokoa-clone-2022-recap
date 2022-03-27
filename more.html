@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandas - More</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- css/components/status-bar.css -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fa-solid fa-lock-open"></i>
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-xl"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- css/components/screen-header.css -->
+    <header class="screen-header">
+        <h2 class="screen-header__title">More</h2>
+        <ul class="screen-header__icons">
+            <li class="screen-header__icon anim-hover"><a class="screen-header__icon-link" href="find.html"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a></li>
+            <li class="screen-header__icon anim-hover position-relative"><a class="screen-header__icon-link" href="music.html"><i class="fa-solid fa-xl fa-music"></i></a></li>
+            <li class="screen-header__icon anim-hover position-relative"><a class="screen-header__icon-link" href="setting.html"><i class="fa-solid fa-xl fa-gear"></i><span class="notification-dot__small"></span></a></li>
+        </ul>
+    </header>
+
+    <main class="main-screen">
+
+        <!-- css/components/user-component.css -->
+        <div class="user-component extra-top-margin">
+            <div class="user__column">
+                <img class="user__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLdb4sH4nlLS0RQherSdFjqQ6dURKMMFChQ&usqp=CAU">
+                <div class="user__text">
+                    <h4 class="user__title">Panda</h4>
+                    <div>
+                        <span class="user__subtext">+82 10-2345-6789</span>
+                        <span>!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="user__column">
+                <i class="fa-solid fa-2xl fa-pen-to-square except-color-gray"></i>
+            </div>
+        </div>
+
+        <ul class="more-screen__list">
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-calendar-day"></i>
+                <span class="more-screen__icon-name">Calendar</span>
+            </li>
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-hard-drive"><span class="notification-dot__small"></span></i>
+                <span class="more-screen__icon-name">Talk Drive</span>
+            </li>
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-face-grin-beam-sweat"></i>
+                <span class="more-screen__icon-name">Emotions</span>
+            </li>
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-brush"></i>
+                <span class="more-screen__icon-name">Themes</span>
+            </li>
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-universal-access"></i>
+                <span class="more-screen__icon-name">Account</span>
+            </li>
+            <li class="more-screen__icon">
+                <i class="more-screen__icon-img fa-solid fa-2xl fa-comments"></i>
+                <span class="more-screen__icon-name">Openchat</span>
+            </li>
+        </ul>
+
+        <div class="more-screen__suggestions">
+            <h5 class="more-screen__suggestions-title">Suggestions</h5>
+            <ul class="more-screen__list">
+                <li class="more-screen__icon">
+                    <img class="more-screen__icon-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1__NPlD0j0j1tZJz33eiGwOR-swKv_Z0_Q&usqp=CAU">
+                    <span class="more-screen__icon-name">Panda Story</span>
+                </li>
+                <li class="more-screen__icon">
+                    <img class="more-screen__icon-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwoipI-icsB7suNh_dNsliOqgNuAeaR09J9Q&usqp=CAU">
+                    <span class="more-screen__icon-name">Panda friends</span>
+                </li>
+                <li class="more-screen__icon">
+                    <img class="more-screen__icon-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjH4x4klKy8Iu6Go_sa2sI9yML_Mucc3bkpg&usqp=CAU">
+                    <span class="more-screen__icon-name">Friends gem</span>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <!-- css/components/navigation-bar.css -->
+    <nav class="nav-bar">
+        <ul class="nav-bar__list">
+            <list class="nav-bar__column anim-hover"><a href="friends.html"><i class="fa-solid fa-2xl fa-paw"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="chats.html"><i class="fa-solid fa-2xl fa-comment-dots"></i><span class="notification-dot__num">...</span></a></list>
+            <list class="nav-bar__column anim-hover"><a href="music.html"><i class="fa-solid fa-2xl fa-music"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="find.html"><i class="fa-solid fa-2xl fa-magnifying-glass-plus"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a class="btn-clicked" href="more.html"><i class="fa-solid fa-2xl fa-circle-info"></i><span class="notification-dot__small"></span></a></list>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/4ff560df84.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -4,6 +4,7 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .find-screen__column {
     width: 25%;
@@ -53,9 +54,6 @@
 }
 
 /* find-screen__open-chat */
-.find-screen__open-chat {
-    /* border: 1px solid red; */
-}
 .find-screen__open-chat-title {
     height: 45px;
     display: flex;
@@ -64,8 +62,6 @@
     color: var(--sub-gray);
 }
 
-.find-screen__open-chat-list {
-}
 .open-chat__row {
     padding-bottom: 10px;
     margin-bottom: 10px;
