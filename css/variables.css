@@ -9,4 +9,7 @@
     /* animation speed */
     --dot-2: 0.2s;
     --dot-4: 0.4s;
+
+    /* horizontal padding */
+    --horizontal-space: 0 20px;
 }

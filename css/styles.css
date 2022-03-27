@@ -44,11 +44,15 @@ a:visited {
     color: var(--main-gray);
 }
 .main-screen {
-    padding: 85px 20px 0;
+    padding: var(--horizontal-space);
+    padding-top: 85px;
 }
 .hidden {
     display: none;
 }
 a.btn-clicked { 
     border-bottom: 5px solid var(--point-color);
+}
+.extra-top-margin {
+    margin-top: 10px;
 }

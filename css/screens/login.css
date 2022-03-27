@@ -22,7 +22,7 @@
 }
 
 .welcome-login__form {
-    padding: 0 20px;
+    padding: var(--horizontal-space);
 }
 .welcome-login__input {
     width: 100%;

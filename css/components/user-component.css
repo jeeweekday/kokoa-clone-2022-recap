@@ -11,12 +11,16 @@
     width: 65px;
     height: 65px;
     object-fit: cover;
-    border-radius: 30%;
+    border-radius: 40%;
     margin-right: 15px;
 }
 .user__image--small {
     width: 50px;
     height: 50px;
+}
+.user__image--medium {
+    width: 60px;
+    height: 60px;
 }
 .user__title {
     font-weight: 500;
@@ -25,10 +29,36 @@
     font-weight: 400;
     letter-spacing: -.5px;
 }
-
+.user__subtext {
+    display: block;
+    color: var(--sub-gray);
+}
+.user__title,
+.user__subtext {
+    margin: 5px 0;
+}
 .user__column:last-child {
     color: var(--sub-gray);
 }
+/* friends side */
 .user__side-num {
     margin-right: 5px;
+}
+/* chats side */
+.user__side-for-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 40px;
+}
+.user__side-badge {
+    background-color: var(--point-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
