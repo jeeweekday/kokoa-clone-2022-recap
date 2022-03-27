@@ -1,0 +1,23 @@
+.notification-dot__num,
+.notification-dot__small {
+    background-color: var(--point-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.notification-dot__num {
+    top: -12px;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.notification-dot__small {
+    top: -10px;
+    right: -8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}

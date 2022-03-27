@@ -1,9 +1,11 @@
 .status-bar {
     background-color: var(--bg-gray);
     width: 100vw;
-    padding: 5px;
+    height: 25px;
+    padding: 0 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
 }

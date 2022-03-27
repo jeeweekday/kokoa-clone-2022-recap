@@ -12,3 +12,6 @@
     justify-content: space-around;
     align-items: center;
 }
+.nab-bar__column {
+    position: relative;
+}

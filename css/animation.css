@@ -1,0 +1,6 @@
+.anim-hover {
+    transition: transform var(--dot-2) ease-in-out;
+}
+.anim-hover:hover {
+    transform: translateY(-15%);
+}
