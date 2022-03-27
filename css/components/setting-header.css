@@ -1,0 +1,30 @@
+/* setting and chatroom 에 사용할것 */
+
+.setting-header {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 25px;
+    width: 100vw;
+    height: 60px;
+    padding: var(--horizontal-space);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+}
+.setting-header__link-back,
+.setting-header__title,
+.setting-header__icons {
+    width: 33%;
+}
+.setting-header__title {
+    text-align: center;
+}
+.setting-header__icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.setting-header__icon {
+    margin-left: 25px;
+}
