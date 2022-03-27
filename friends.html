@@ -11,7 +11,6 @@
 <body>
 
     <!-- css/components/status-bar.css -->
-
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No service</span>
@@ -29,7 +28,6 @@
     </div>
 
     <!-- css/components/screen-header.css -->
-
     <header class="screen-header">
         <h2 class="screen-header__title">Friends</h2>
         <ul class="screen-header__icons">
@@ -39,15 +37,72 @@
         </ul>
     </header>
 
-    <!-- css/components/navigation-bar.css -->
+    <main class="main-screen">
+        <!-- css/screens/friends.css -->
+        <div class="friends-screen__display">
+            <a class="friends-screen__link" href="#">
+                <i class="fa-solid fa-sm fa-paw"></i>
+                <span>Friends' Names Display</span>
+                <i class="fa-solid fa-sm fa-chevron-right"></i>
+            </a>
+        </div>
 
+        <!-- css/components/user-component.css -->
+        <div class="user-component">
+            <div class="user__column">
+                <img class="user__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLdb4sH4nlLS0RQherSdFjqQ6dURKMMFChQ&usqp=CAU">
+                <div class="user__text">
+                    <h4 class="user__title">Panda</h4>
+                    <span class="user__subtext hidden">subtext here</span>
+                </div>
+            </div>
+            <div class="user__column hidden">icons here</div>
+        </div>
+
+        <!-- css/screens/friends.css -->
+        <div class="friends-screen__channel-bar">
+            <span>Channel</span>
+            <i class="fa-solid fa-sm fa-chevron-up"></i>
+        </div>
+
+        <!-- css/components/user-component.css -->
+        <div class="user-component">
+            <div class="user__column">
+                <img class="user__image user__image--small" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ1pZHQKcKfVPTzUAptEU7H6bG7lRvf3-tgA&usqp=CAU">
+                <div class="user__text">
+                    <h4 class="user__title user__title--small">Bamboo Supply</h4>
+                    <span class="user__subtext hidden">subtext here</span>
+                </div>
+            </div>
+            <div class="user__column">
+                <span class="user__side-num">2</span>
+                <i class="fa-solid fa-sm fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user__column">
+                <img class="user__image user__image--small" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShfwNK9JTJdBrdqk1U7SVtZroGeQd2NN7aMA&usqp=CAU">
+                <div class="user__text">
+                    <h4 class="user__title user__title--small">Martial-Arts for Pandas</h4>
+                    <span class="user__subtext hidden">subtext here</span>
+                </div>
+            </div>
+            <div class="user__column">
+                <span class="user__side-num">1</span>
+                <i class="fa-solid fa-sm fa-chevron-right"></i>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- css/components/navigation-bar.css -->
     <nav class="nav-bar">
         <ul class="nav-bar__list">
-            <list class="nab-bar__column anim-hover"><a href="friends.html"><i class="fa-solid fa-2xl fa-paw"></i></a></list>
-            <list class="nab-bar__column anim-hover"><a href="talk.html"><i class="fa-solid fa-2xl fa-comment-dots"></i><span class="notification-dot__num">1</span></a></list>
-            <list class="nab-bar__column anim-hover"><a href="music.html"><i class="fa-solid fa-2xl fa-music"></i></a></list>
-            <list class="nab-bar__column anim-hover"><a href="find.html"><i class="fa-solid fa-2xl fa-magnifying-glass-plus"></i></a></list>
-            <list class="nab-bar__column anim-hover"><a href="more.html"><i class="fa-solid fa-2xl fa-circle-info"></i><span class="notification-dot__small"></span></a></list>
+            <list class="nav-bar__column anim-hover"><a class="btn-clicked" href="friends.html"><i class="fa-solid fa-2xl fa-paw"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="talk.html"><i class="fa-solid fa-2xl fa-comment-dots"></i><span class="notification-dot__num">1</span></a></list>
+            <list class="nav-bar__column anim-hover"><a href="music.html"><i class="fa-solid fa-2xl fa-music"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="find.html"><i class="fa-solid fa-2xl fa-magnifying-glass-plus"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="more.html"><i class="fa-solid fa-2xl fa-circle-info"></i><span class="notification-dot__small"></span></a></list>
         </ul>
     </nav>
 

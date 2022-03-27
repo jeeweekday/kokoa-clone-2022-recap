@@ -9,6 +9,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.screen-header h2 {
+    border-bottom: 2px solid var(--point-color);
+    padding: 0 5px;
+}
 .screen-header__icons {
     display: flex;
     justify-content: center;

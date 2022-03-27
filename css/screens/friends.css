@@ -1,0 +1,15 @@
+.friends-screen__display {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.friends-screen__channel-bar {
+    border-top: 0.5px solid var(--sub-gray);
+    margin: 10px 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--sub-gray);
+}

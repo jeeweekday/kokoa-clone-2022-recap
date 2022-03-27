@@ -9,9 +9,11 @@
 @import "components/navigation-bar.css";
 @import "components/notification-dot.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 html {
     /* 100% -> 16px */
@@ -33,8 +35,20 @@ h3 {
     /* 1.5rem -> 24px */
     font-size: 1.5rem;
 }
+h4 {
+    font-size: 1.25rem;
+}
 a,
 a:visited {
     text-decoration: none;
     color: var(--main-gray);
+}
+.main-screen {
+    padding: 85px 20px 0;
+}
+.hidden {
+    display: none;
+}
+a.btn-clicked { 
+    border-bottom: 5px solid var(--point-color);
 }
