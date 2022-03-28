@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandas - Settings</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- css/components/status-bar.css -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fa-solid fa-lock-open"></i>
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-xl"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- css/components/setting-header.css -->
+    <header class="setting-header">
+        <a class="setting-header__link-back" href="chats.html"><i class="fa-solid fa-xl fa-chevron-left"></i></a>
+        <h2 class="setting-header__title">Settings</h2>
+        <ul class="setting-header__icons">
+            <li class="setting-header__icon anim-hover"><a class="screen-header__icon-link" href="find.html"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a></li>
+            <li class="setting-header__icon anim-hover"><a class="screen-header__icon-link" href="#.html"><i class="fa-solid fa-xl fa-bars"></i></a></li>
+        </ul>
+    </header>
+
+    <main class="main-screen">
+        <!-- first list in setting -->
+        <ul class="setting-screen__list">
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span class="setting-screen__name">Notices</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-flask"></i>
+                    <span class="setting-screen__name">Pandas Lab</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span class="setting-screen__name">Version</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext">Latest Version</span></div>
+            </li>
+        </ul>
+
+        <!-- second list in setting -->
+        <ul class="setting-screen__list">
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-lock"></i>
+                    <span class="setting-screen__name">Privacy</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="setting-screen__name">Notifications</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span class="setting-screen__name">Friends</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="setting-screen__name">Chats</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-display"></i>
+                    <span class="setting-screen__name">Display</span>
+                    <span class="setting-screen__new-badge">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-brush"></i>
+                    <span class="setting-screen__name">Themes</span>
+                    <span class="setting-screen__new-badge">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext">Default theme</span></div>
+            </li>
+            <li class="setting-screen__row">
+                <div class="setting-screen__column">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="setting-screen__name">Call</span>
+                    <span class="setting-screen__new-badge hidden">N</span>
+                </div>
+                <div class="setting-screen__column"><span class="setting-screen__subtext hidden">text here</span></div>
+            </li>
+        </ul>
+    </main>
+
+    <!-- css/components/navigation-bar.css -->
+    <nav class="nav-bar">
+        <ul class="nav-bar__list">
+            <list class="nav-bar__column anim-hover"><a href="friends.html"><i class="fa-solid fa-2xl fa-paw"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="chats.html"><i class="fa-solid fa-2xl fa-comment-dots"></i><span class="notification-dot__num">...</span></a></list>
+            <list class="nav-bar__column anim-hover"><a href="music.html"><i class="fa-solid fa-2xl fa-music"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="find.html"><i class="fa-solid fa-2xl fa-magnifying-glass-plus"></i></a></list>
+            <list class="nav-bar__column anim-hover"><a href="more.html"><i class="fa-solid fa-2xl fa-circle-info"></i><span class="notification-dot__small"></span></a></list>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/4ff560df84.js" crossorigin="anonymous"></script>
+</body>
+</html>
