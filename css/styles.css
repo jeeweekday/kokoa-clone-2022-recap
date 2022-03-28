@@ -18,6 +18,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/setting.css";
+@import "screens/chat-room.css";
 
 html {
     /* 100% -> 16px */
@@ -39,13 +40,14 @@ h3 {
     /* 1.5rem -> 24px */
     font-size: 1.5rem;
 }
-h4 {
-    font-size: 1.25rem;
-}
 a,
 a:visited {
     text-decoration: none;
     color: var(--main-gray);
+}
+h4 {
+    font-size: 1.25rem;
+    color: var(--main-color);
 }
 .main-screen {
     padding: var(--horizontal-space);
