@@ -54,6 +54,34 @@
     margin: 0 5px;
     color: var(--main-gray);
 }
+
+@keyframes conversationComeIn {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to { 
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes conversationComeInMe {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to { 
+        transform: none;
+        opacity: 1;
+    }
+}
+.conversation__row {
+    animation: conversationComeIn 1s ease-in-out;
+}
+.conversation__row-me {
+    animation: conversationComeInMe 1s ease-in-out;
+}
+
 /* chat-room-conversation__me */
 .conversation__row-me {
     justify-content: flex-end;

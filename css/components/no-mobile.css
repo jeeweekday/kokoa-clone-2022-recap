@@ -1,0 +1,33 @@
+#no-mobile {
+    background-color: var(--point-color);
+    width: 100vw;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+#no-mobile img {
+    position: absolute;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    width: 200px;
+}
+#no-mobile span {
+    position: absolute;
+    top: 50vh;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+@media screen and (max-width: 645px) {
+    #no-mobile {
+        display: none;
+    }    
+}
+@media screen and (min-width: 646px) {
+    body {
+        overflow: hidden;
+    }
+}

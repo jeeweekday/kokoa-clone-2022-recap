@@ -11,6 +11,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/setting-header.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
@@ -53,6 +54,7 @@ h4 {
 .main-screen {
     padding: var(--horizontal-space);
     padding-top: 85px;
+    padding-bottom: 60px;
 }
 .hidden {
     display: none;

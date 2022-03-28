@@ -22,3 +22,15 @@
 .screen-header__icon {
     margin-left: 25px;
 }
+
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icon:hover  .fa-gear {
+    animation: rotateGear 3s linear infinite;
+}
