@@ -19,6 +19,7 @@
 @import "screens/more.css";
 @import "screens/setting.css";
 @import "screens/chat-room.css";
+@import "screens/music.css";
 
 html {
     /* 100% -> 16px */
@@ -29,7 +30,7 @@ body {
     color: var(--main-color);
     /* 0.875rem -> 14px */
     font-size: 0.875rem;
-    height: 200vh;
+    height: 100vh;
 }
 h2 {
     font-size: 1.5rem;

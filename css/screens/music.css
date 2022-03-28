@@ -1,0 +1,88 @@
+.only-for-music {
+    background: linear-gradient(whitesmoke, 90%, var(--main-gray));
+}
+/* music-screen__now-play */
+.music-screen__now-play {
+    text-align: center;
+}
+.music-screen__album-cover {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
+    margin: 40px 0;
+}
+.music-screen__song-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.music-screen__song-title span {
+    background-color: #358DCC88;
+    padding: 0 20px;
+}
+.music-screen__song-siger {
+    color: var(--main-gray);
+    font-weight: 500;
+}
+/* music-screen__controller-bar */
+.music-screen__controller {
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+.music-screen__controller-bar {
+    height: 60px;
+    position: relative;
+}
+.music-screen__controller-bar > span,
+.music-screen__controller-bar > div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.music-screen__controller-bar > span {
+    top: 30%;
+    color: var(--sub-gray);
+    font-size: 0.75rem;
+}
+.music-screen__controller-bar > span:nth-child(2) {
+    right: 0;
+}
+.controller-bar__bar-top {
+    background-color: var(--main-color);
+    width: 65%;
+    height: 4px;
+    border-radius: 2px;
+}
+.controller-bar__bar-bottom {
+    background-color: var(--sub-gray);
+    width: 100%;
+    height: 3px;
+    border-radius: 1.5px;
+}
+.music-screen__controller-bar .controller-bar__dot {
+    background-color: var(--main-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+/* music-screen__controller-btn */
+.music-screen__controller-btn {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.music-screen__controller-btn i {
+    font-size: 1.25rem;
+}
+.music-screen__controller-btn i:nth-child(3) {
+    font-size: 3.5rem;
+}
+.music-screen__controller-btn i:nth-child(4n+1) {
+    color: var(--sub-gray);
+}
