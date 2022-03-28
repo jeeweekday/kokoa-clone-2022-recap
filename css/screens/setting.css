@@ -1,0 +1,48 @@
+.setting-screen__list {
+    border-bottom: 0.5px solid var(--sub-gray);
+    padding: 20px 0;
+}
+.setting-screen__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    border-bottom: 0.5px solid var(--bg-gray);
+    font-size: 1.25rem;
+    letter-spacing: -.5px;
+}
+.setting-screen__row:last-child {
+    border: none;
+}
+.setting-screen__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.setting-screen__column:first-child i,
+.setting-screen__name {
+    margin-right: 12px;
+}
+.setting-screen__column:first-child i {
+    width: 30px;
+    text-align: center;
+}
+
+.setting-screen__list:last-child {
+    border: none;
+    padding-bottom: 40px;
+}
+.setting-screen__column:last-child {
+    font-weight: 300;
+    color: var(--sub-gray);
+}
+.setting-screen__new-badge {
+    background-color: var(--point-color);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 0.875rem;
+}
